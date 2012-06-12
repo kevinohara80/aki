@@ -1,0 +1,24 @@
+{
+  "author": "Kevin O'Hara <kevinohara80@gmail.com> (http://kevinmohara.com)",
+  "name": "aki",
+  "description": "aki is an anti-spam module for node.js that works with the akismet API",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kevinohara80/aki.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tap ./tests"
+  },
+  "dependencies": {
+    "request": "~2.9.202"
+  },
+  "devDependencies": {
+    "tap": "~0.2.5"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
